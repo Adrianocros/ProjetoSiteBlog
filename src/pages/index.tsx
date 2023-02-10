@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/home.module.scss'
+import Image from 'next/image'
+import contats from '../../public/images/contats.png'
 
 
 export default function Home() {
@@ -52,9 +54,21 @@ export default function Home() {
 
           </span>
         </section>
-       
        </div>
-
+      <div className={styles.nextLevelContent}>
+        <div className={styles.iconsContato}>
+          <a href=""><img src="/images/email.png" alt="" /> </a>
+          <a href=""><img src="/images/telephone-call.png" alt="" /></a>
+          <a href=""><img src="/images/instagram.png" alt="" /></a>
+          <a href=""><img src="/images/facebook.png" alt="" /></a>
+          <a href=""><img src="/images/twitter.png" alt="" /></a>
+        </div>
+        <h2>Otimize seu site e alcance mais clientes com <span className={styles.nomeEmpresa}> MW Soluções WEB</span> .</h2>
+        <span>Desenvolver Web -  SEO e Pay Per Click - Gestão de Tráfegos Pagos - Omnichannel  </span>
+        <a>
+          <button>Quer vender mais ?</button>
+        </a>
+      </div>
       </main>
     </>
   )

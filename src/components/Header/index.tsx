@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './styles.module.scss'
-import logo from '../../../public/images/logo.svg'
+import logo from '../../../public/images/logo.png'
 import { ActiveLink } from '../ActiveLink'
 
 
@@ -15,8 +15,10 @@ export function Header(){
            <ActiveLink href="/" activeClassName={styles.active} >
                 <a>
                     <Image src={logo}  alt="MW Solucoes WB"/> 
+            
                </a>
             </ActiveLink>
+            
             <nav>
             <ActiveLink href="/" activeClassName={styles.active} >
                 <a >Home</a>
