@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rajdhani:wght@300&display=swap');
+.container{
+    display: block;
+  }
+  
+  .containerHeader{
+    min-height: calc(100vh - 13rem);
+    margin: 0 auto;
+    max-width: 1120px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    img{
+      max-width: 240px;
+    }
+  }
+  
+  .ctaText{
+    max-width: 600px;
+  
+    h1{
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+      font-weight: 900;
+      margin-top: 3.5rem;
+      color: var(--white);
+      font-family: 'Oswald', sans-serif;
+    }
+  
+    span{
+      font-size: 1.5rem;
+      color: var(--white);
+      font-family: 'Rajdhani', sans-serif;
+    }
+  
+    button{
+      background-color: var(--orange-500);
+      border:0;
+      padding: 1rem 1.8rem;
+      margin-top: 2.5rem;
+      border-radius: 7px;
+      color: var(--white);
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+  }
+
+  .divisor{
+    width: 100%;
+    bottom: 0;
+    height: 1px;
+    border-color: var(--gray-200);
+  }
+
+  .sectionContent{
+    margin: 5.5rem auto;
+    max-width: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section{
+      max-width: 670px;
+    }
+      img{
+        max-width: 550px;
+      }
+      h2{
+        font-size: 2.2rem;
+        line-height: 4.5rem;
+        font-weight: 900;
+        margin-top: 2.2rem;
+        color: var(--white);
+      }
+
+      span{
+        font-size: 1rem;
+        line-height: 2.25rem;
+        color: var(--white);
+        
+      }
+   }
