@@ -15,7 +15,6 @@ export function Header(){
            <ActiveLink href="/" activeClassName={styles.active} >
                 <a>
                     <Image src={logo}  alt="MW Solucoes WB"/> 
-            
                </a>
             </ActiveLink>
             
@@ -28,6 +27,9 @@ export function Header(){
             </ActiveLink>
             <ActiveLink href="/sobre" activeClassName={styles.active} >
                 <a>Sobre </a>
+            </ActiveLink>
+            <ActiveLink href="/posts" activeClassName={styles.active}>
+                <a>Posts</a>
             </ActiveLink>
             </nav>
 

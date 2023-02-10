@@ -68,7 +68,7 @@
     }
 }
 
-@media(max-width:925px){
+@media(max-width:972px){
     .headerContainer{
         height: 15rem;
         padding: 0.9rem 0;
@@ -92,29 +92,30 @@
 }
 
 
-@media(max-width:375px){
+@media(max-width:480px){
     .headerContainer{
-        height: 15rem;
-        padding: 0.4rem 0;
-        
+       
     }
-
     .headerContent{
-    display: flex;
-    flex-direction: column;
-    font-size:  1.3rem;;
-
     nav{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
+       a{
+        font-size: 15px;
+       }
       }
-    .readyButton{
-        display: none;
     }
+}
 
 
+@media(max-width:350px){
+    .headerContainer{
+       
+    }
+    .headerContent{
+    nav{
+       a{
+        font-size: 12px;
+       }
+      }
     }
 }
 
