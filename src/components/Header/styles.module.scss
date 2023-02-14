@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Oswald:wght@700&family=Rajdhani:wght@300&display=swap');
 .headerContainer{
     height: 6rem;
     border-bottom: 1px solid var(--gray-200);
@@ -30,6 +31,9 @@
             color: var(--gray-100);
             transition: color 0.2s;
             font-size: 1.6rem;
+            font-family: 'Lexend', sans-serif;
+            font-weight: 500;
+           
     
             &+a{
                 margin-left: 2rem;
